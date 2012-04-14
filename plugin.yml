@@ -1,0 +1,19 @@
+name: Impact
+version: 1.0.0
+description: Causes falling players to crater on impact.
+author: SableDnah
+website: http://dev.bukkit.org/server-mods/impact/
+
+main: me.sablednah.impact.Impact
+softdepend: [ Spout ]
+
+commands:
+    impact:
+        description: Root command for all  Impact Commands.
+        usage: /<command> [reload]
+
+permissions:
+    impact.nocrater:
+        description: Players with this node do not leave craters.
+        default: false
+
