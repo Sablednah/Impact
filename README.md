@@ -3,6 +3,7 @@ Impact
 
 Falling players make impact craters!
 
+Simple plugin with permissions node to allow exempt players. 
 
 
 
