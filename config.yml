@@ -1,5 +1,31 @@
 # Default Impact Config file
 # 
 # debugMode: [true|false] Enable extra debugging messages in server logs.
+# heavyMobs: [list] Mobs not thrown into air by impact
+# impactMobs: [list] Mobs that cause impact craters
+# playersImpact: [true|false] Players cause impact crators
+# playersHeavy: [true|false] Players thrown into air by impact
+# impactTpye: [explode|scatter|rise]
 
 debugMode: false
+
+heavyMobs:
+- Giant
+
+impactMobs:
+- All
+
+playersImpact: true
+playersHeavy: false
+
+impactTpye: explode
+
+fixHoles: false
+dropBlocks: false
+dropChance: 95
+minFall: 5
+explosionScale: 10.0
+throwScale: 5.0
+spread: 0.1
+blockFalling: false
+ 
